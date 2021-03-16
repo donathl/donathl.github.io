@@ -1,0 +1,100 @@
+.body {
+  margin: auto;
+  max-width: 1000px;
+}
+.header {
+  display: flex;
+  position: relative;
+  max-width: 800px;
+  height: 100px;
+  margin: auto;  
+  margin-bottom: 180px;
+  font-family: 'Abril Fatface', sans;
+  
+}
+.header img#image {
+  
+  margin: auto;
+  max-width: 100%;
+}
+
+.headertext h1#Hi{
+    
+  display: block;
+  position: absolute;
+  font-size: 2em;
+  top: 130px;
+  left: 150px;
+  text-align: justify; 
+  padding: 0;
+}
+.headertext h1#name{
+    
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  text-align: justify;
+  font-size: 3em;
+}
+p {
+  font-family: 'Merriweather', italic;
+  font-size: 15px;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+ul {
+  font-family: 'Merriweather',sans-serif;
+  font-size: 15px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: square;
+}
+
+h3 {
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+.foot .footerline {
+  background: black;
+  width: 600px;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20 px;
+}
+.foot
+{
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+blockquote::before {
+  content: open-quote;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  
+}
+blockquote {
+  
+  display: flex;
+  position: relative;
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 2em;
+  background: grey;
+  color: white;
+  max-width: 520px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  padding: 20px;
+}
