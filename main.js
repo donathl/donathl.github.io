@@ -22,7 +22,7 @@ let ImagesData = [
     },
     {
         photo: `Images/photo5.png`,
-        title: "Chealsee",
+        title: "Chelsea",
         description: `Sponsored by Abramovics`,
     },
     {
